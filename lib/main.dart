@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var darkMode = settings.get('darkMode', defaultValue: true);
+    var darkMode = settings.get('darkMode', defaultValue: false);
     return MaterialApp(
       // initialRoute: '/home',
       debugShowCheckedModeBanner: false,
